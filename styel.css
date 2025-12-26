@@ -295,6 +295,12 @@ footer {
     color: #fff;
 }
 
+footer section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 footer .copy {
     grid-column: 1/-1;
     text-align: center;
